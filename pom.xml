@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Getjobs.com - Job Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .marquee {
+            background: white;
+            color: blue;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .login-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .login-btn {
+            background: #4CAF50;
+            color: white;
+            padding: 20px 40px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        .login-btn:hover {
+            transform: scale(1.05);
+            background: #45a049;
+        }
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .category {
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .category:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="font-size: 48px; margin-bottom: 10px;">GETJOBS.COM</h1>
+            <p style="font-size: 20px; margin: 0;">Find Your Dream Job Today</p>
+        </div>
+
+        <div class="marquee">
+            🚀 INFOSYS, HP, COGNIZANT, TRAVISCA, DEOLITE and MANY MORE 🚀
+        </div>
+
+        <div class="login-buttons">
+            <a href="login_a.jsp" class="login-btn">👤 APPLICANT LOGIN</a>
+            <a href="login_e.jsp" class="login-btn">🏢 EMPLOYER LOGIN</a>
+        </div>
+
+        <div class="categories">
+            <div class="category" onclick="showAlert()">Advertising/PR</div>
+            <div class="category" onclick="showAlert()">Arts/Entertainment/Publishing</div>
+            <div class="category" onclick="showAlert()">College</div>
+            <div class="category" onclick="showAlert()">Education/Training</div>
+            <div class="category" onclick="showAlert()">Engineering/Architecture</div>
+            <div class="category" onclick="showAlert()">Entrepreneurial/Start-up</div>
+            <div class="category" onclick="showAlert()">Entry Level</div>
+            <div class="category" onclick="showAlert()">Government</div>
+            <div class="category" onclick="showAlert()">Health Care</div>
+            <div class="category" onclick="showAlert()">Hospitality/Travel</div>
+            <div class="category" onclick="showAlert()">Human Resources</div>
+            <div class="category" onclick="showAlert()">Insurance</div>
+            <div class="category" onclick="showAlert()">Internet/New Media</div>
+            <div class="category" onclick="showAlert()">Legal</div>
+            <div class="category" onclick="showAlert()">Manufacturing/Operations</div>
+            <div class="category" onclick="showAlert()">Marketing</div>
+            <div class="category" onclick="showAlert()">Pharmaceutical/Biotech</div>
+            <div class="category" onclick="showAlert()">Real Estate/Construction</div>
+            <div class="category" onclick="showAlert()">Retail</div>
+            <div class="category" onclick="showAlert()">Sales</div>
+            <div class="category" onclick="showAlert()">Tech Contract</div>
+            <div class="category" onclick="showAlert()">Technology</div>
+            <div class="category" onclick="showAlert()">Telecommunications</div>
+            <div class="category" onclick="showAlert()">Temp Jobs</div>
+        </div>
+
+        <div class="footer">
+            GETJOBS.COM is a registered organization
+        </div>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert("REGISTER FIRST IF NEW USER OR SIGNIN");
+        }
+    </script>
+</body>
+</html> 
